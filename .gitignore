@@ -1,0 +1,26 @@
+﻿# Python & Virtual Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Node & Frontend Build
+node_modules/
+frontend/dist/
+.vite/
+
+# Large Model Weights (>100MB GitHub limit) & Media
+*.pt
+*.pth
+*.onnx
+*.mp4
+*.avi
+*.mov
+backend/uploads/
+backend/outputs/
+
+# OS / IDE
+.DS_Store
+.vscode/
